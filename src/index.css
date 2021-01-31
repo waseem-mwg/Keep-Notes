@@ -1,0 +1,126 @@
+*{
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Josefin San', sans-serif;
+  --pri-col: rgb(46, 46, 46)
+}
+.header{
+  width: 100%;
+  line-height: 100px;
+  /* display: flex; */
+  /* justify-content: center; */
+  align-items: center;
+  padding-left: 53px;
+  box-shadow: 5px 3px 15px -5px black;
+  color: white;
+  background-color: var(--pri-col);
+}
+.main_note{
+  width: 500px;
+  margin: 20px auto;
+  padding: 15px 24px 5px 27px;
+}
+form{
+  min-height: 50px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 10px 5px 20px -5px black;
+  position: relative;
+  padding: 15px 10px 15px 10px;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+input{
+  width: 100%;
+  line-height: 33px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1.5rem;
+  margin: 10px 3px;
+  font-weight: bold;
+}
+textarea{
+  width: 100%;
+  line-height: 33px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  margin: 10px 2px;
+}
+#btn_add{
+  color: var(--pri-col);
+  border: 2px solid var(--pri-col) !important;          /*border radius*/
+  border-radius: 50% !important;
+  cursor: pointer;
+  position: absolute !important;
+  bottom: 2px !important;
+  right: 1px !important;
+  min-width: 10px !important;
+}
+#btn_add:hover{
+  color: white;
+  background: transparent;
+  background-color: var(--pri-col);
+}
+.MuiButton-root .plus_sign{
+  width: 1.15em !important;
+  height: 1.15em !important;
+}
+.note{
+  background: white;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px grey;
+  width: 250px;
+  padding: 10px;
+  margin: 16px;
+  float: left;
+}
+.note h1{
+  font-size: 1.15em;
+  margin-bottom: 15px;
+}
+.note p{
+  font-size: 1.1em;
+  margin-bottom: 15px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.note .btn{
+  position: relative;
+  float: right;
+  background: none;
+  border: 2px solid var(--pri-col) !important;      /*border radius*/
+  color: var(--pri-col);
+  border-radius: 50% !important;
+  width: 13px;
+  height: 35px;
+  outline: none;
+  box-shadow: 3px 3px 5px -5px black;
+  min-width: 37px !important;
+}
+.deleteIcon{
+  width: 0.7em !important;
+  height: 0.7em !important;
+}
+.note .btn:hover{
+  color: white;
+  background-color: var(--pri-col);
+}
+footer{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 10px 5px 20px -8px black;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  outline: none;
+  font-size: small;
+}
